@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2E5D43;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.call-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.main {
+    position: relative;
+    background-image: url('../../Image/mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 20px;
+    text-align: left;
+}
+
+.main-content {
+    max-width: 800px;
+}
+
+.tags button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: rgba(168, 140, 140, 0.5);
+    border-radius: 5px;
+    font-size: 14px;
+}
+.tags button:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.main h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+.subtext {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.discount-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+}
+
+.discount-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.discount-text p {
+    margin: 0;
+}
+
+.discount-text .highlight {
+    color: #4CAF50;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 5px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
